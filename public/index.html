@@ -35,7 +35,7 @@
     <style>
       @font-face {
           font-family: 'theseason';
-          src: url(assets\font\theseason.otf);
+          src: url(assets\font\theseasons-reg.otf);
       }
       @font-face {
           font-family: 'montserratsemibold';
@@ -54,7 +54,15 @@
           src: url(assets\font\CormorantGaramond-Medium.ttf);
       }
       
-      
+
+      .dropdown-menu{
+        background-color: #9c8235;
+      }
+      .dropdown-item{
+        color:white;
+        font-weight: 500;
+        margin-bottom: 10px;
+      }
     </style>
     
   </head>
@@ -76,8 +84,25 @@
             <ul class="navbar-nav ms-auto">
               <li class="nav-item"><a class="nav-link active" aria-current="page" href="#feature">HOME</a></li>
               <li class="nav-item"><a class="nav-link" aria-current="page" href="#validation">ABOUT</a></li>
-              <li class="nav-item"><a class="nav-link" aria-current="page" href="#superhero">SERVICES</a></li>
-              <li class="nav-item"><a class="nav-link" aria-current="page" href="#marketing">CONTACT</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link  " href="#" data-bs-toggle="dropdown">  SERVICES  </a>
+                 <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> OUTSIDE<br> CATERING</a></li>
+                  <li><a class="dropdown-item" href="#"> CANAPÉ </a></li>
+                  <li><a class="dropdown-item" href="#"> COFFEE<br> BREAK </a></li>
+                  <li><a class="dropdown-item" href="#"> WHOLESALE </a></li>
+                 </ul>
+              </li> 
+              <li class="nav-item dropdown">
+                <a class="nav-link  " href="#" data-bs-toggle="dropdown">  CONTACT  </a>
+                 <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="#"> DREAM DATES SENOPATI</a></li>
+                  <li><a class="dropdown-item" href="#"> DREAM DATES MENTENG </a></li>
+                  <li><a class="dropdown-item" href="#"> B2B SALES </a></li>
+                  <li><a class="dropdown-item" href="#"> DREAM HALL </a></li>
+                 </ul>
+              </li> 
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="#marketing"></a></li>
             </ul>
           </div>
         </div>
@@ -124,7 +149,7 @@
       </section>
       
 
-      <section class="pt-7 " style=" background: linear-gradient(transparent 35% ,#e8e5de 35% ) no-repeat;">
+      <section class="pt-7 " style=" background: linear-gradient(transparent 32% ,#e8e5de 32% ) no-repeat;">
         <div class="container ">
           <div class="row align-items-center">
             <div class="col-md-5 text-md-start text-center py-6">
@@ -151,7 +176,7 @@
 
 
 
-      <section class="pt-7 " style=" background: linear-gradient(transparent 35% ,#e8e5de 35% ) no-repeat;">
+      <section class="pt-7 " style=" background: linear-gradient(transparent 32% ,#e8e5de 32% ) no-repeat;">
         <div class="container ">
           <div class="row align-items-center">
             <div class="col-md-5 text-md-start text-center py-6">
@@ -159,7 +184,7 @@
               <p class="mb-6 lead text-secondary" style="font-family: montserratregular;">Jl. Cipaku I Jl. Senopati No.10, Petogogan,<br>
                 Kec. Kby. Baru, Kota Jakarta Selatan, Daerah<br>
                 Khusus Ibukota Jakarta 12170</p>
-              <div class="text-center text-md-start"><a class="btn btn-warning me-3 btn-lg" href="#!" role="button">Book Now</a></div>
+              <div class="text-center text-md-start"><a class="btn me-3 btn-lg" href="#!" role="button">Book Now</a></div>
             </div>
             <!-- <div class="col-md-6 text-end"><img class="pt-7 pt-md-0 img-fluid" src="assets/img/hero/hero-img.png" alt="" /></div> -->
             
@@ -175,7 +200,7 @@
         </div>
       </section>
 
-      <section class="pt-7 " style=" background: linear-gradient(transparent 35% ,#e8e5de 35% ) no-repeat;">
+      <section class="pt-7 " style=" background: linear-gradient(transparent 32% ,#e8e5de 32% ) no-repeat;">
         <div class="container ">
           <div class="row align-items-center">
             <div class="col-md-5 text-md-start text-center py-6">
@@ -198,39 +223,36 @@
           </div>
         </div>
       </section>
-      <section class="pt-7" style=" background: linear-gradient(transparent 35% ,#e8e5de 35% ) no-repeat;">
+      <section class="pt-7" style=" background: linear-gradient(transparent 34% ,#e8e5de 34% ) no-repeat;">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-6 text-md-start text-center py-6">
               <h1 class="mb-4 fs-12 " style="color: #444444; font-family: theseason;">Outside <br class="d-none d-xl-block" /> Catering</h1>
               <p class="mb-6 lead text-secondary">Turn your special occasion into an<br class="d-none d-xl-block" />extraordinary experience with Dream Dates<br class="d-none d-xl-block" />Restaurant's exclusive outside catering.<br class="d-none d-xl-block" />Whether it's an intimate dinner under the<br class="d-none d-xl-block" />stars, a charming picnic, or a cozy meal at<br class="d-none d-xl-block" />home, our gourmet catering will make your<br class="d-none d-xl-block" />dream date unforgettable.</p>
-              <div class="text-center text-md-start"><a class="btn btn-warning me-3 btn-lg" href="#!" role="button">Book Now</a></div>
             </div>
             <div class="col-md-6 text-end"><img class="pt-7 pt-md-0 img-fluid" style="max-height:50%;" src="assets/images/chef.JPG" alt="" /></div>
           </div>
         </div>
       </section>
 
-      <section class="pt-7" style=" background: linear-gradient(transparent 35% ,#e8e5de 35% ) no-repeat;">
+      <section class="pt-7" style=" background: linear-gradient(transparent 27% ,#e8e5de 27% ) no-repeat;">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-6 text-md-start text-center py-6">
               <h1 class="mb-4 fs-12 " style="color: #444444; font-family: theseason;">Coffee <br class="d-none d-xl-block" /> Break</h1>
               <p class="mb-6 lead text-secondary">Need a pick-me-up? Dream Dates<br class="d-none d-xl-block" />Restaurant is here to elevate your coffee<br class="d-none d-xl-block" />break experience. Whether it's for a<br class="d-none d-xl-block" />corporate meeting, a casual gathering, or a<br class="d-none d-xl-block" />special event, our coffee break service is<br class="d-none d-xl-block" />designed to refresh and rejuvenate.</p>
-              <div class="text-center text-md-start"><a class="btn btn-warning me-3 btn-lg" href="#!" role="button">Book Now</a></div>
             </div>
             <div class="col-md-6 text-end"><img class="pt-7 pt-md-0 img-fluid" src="assets/images/ddcoffee.JPG" alt="" /></div>
           </div>
         </div>
       </section>
       
-      <section class="pt-7" style=" background: linear-gradient(transparent 35% ,#e8e5de 35% ) no-repeat;">
+      <section class="pt-7" style=" background: linear-gradient(transparent 32% ,#e8e5de 32% ) no-repeat;">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-md-6 text-md-start text-center py-6">
               <h1 class="mb-4 fs-12" style="color: #444444; font-family: theseason;">Canapé's</h1>
               <p class="mb-6 lead text-secondary">Make your gatherings unforgettable with the<br class="d-none d-xl-block" />sophisticated charm of Dream Dates<br class="d-none d-xl-block" />Restaurant's canapé service. Perfect for<br class="d-none d-xl-block" />weddings, corporate events, cocktail parties<br class="d-none d-xl-block" />and more, our gourmet canapés are sure to<br class="d-none d-xl-block" />impress your guests.</p>
-              <div class="text-center text-md-start"><a class="btn btn-warning me-3 btn-lg" href="#!" role="button">Book Now</a></div>
             </div>
             <div class="col-md-6 text-end"><img class="pt-7 pt-md-0 img-fluid" src="assets/images/canapes.JPG" alt="" /></div>
           </div>
@@ -516,7 +538,42 @@
         </div>
       </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(){
+// make it as accordion for smaller screens
+if (window.innerWidth > 992) {
 
+	document.querySelectorAll('.navbar .nav-item').forEach(function(everyitem){
+
+		everyitem.addEventListener('mouseover', function(e){
+
+			let el_link = this.querySelector('a[data-bs-toggle]');
+
+			if(el_link != null){
+				let nextEl = el_link.nextElementSibling;
+				el_link.classList.add('show');
+				nextEl.classList.add('show');
+			}
+
+		});
+		everyitem.addEventListener('mouseleave', function(e){
+			let el_link = this.querySelector('a[data-bs-toggle]');
+
+			if(el_link != null){
+				let nextEl = el_link.nextElementSibling;
+				el_link.classList.remove('show');
+				nextEl.classList.remove('show');
+			}
+
+
+		})
+	});
+
+}
+// end if innerWidth
+}); 
+// DOMContentLoaded  end
+    </script>
 
     <!-- ===============================================-->
     <!--    JavaScripts-->
